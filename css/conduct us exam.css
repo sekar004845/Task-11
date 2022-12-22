@@ -1,0 +1,195 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	width:100%;
+}
+.contactus{
+	padding:20px;
+}
+h1{
+	text-align:center;
+	position:relative;
+	padding:5px;
+}
+h1:after{
+	content:"";
+	position:absolute;
+	background-color:black;
+	height:1px;
+	width:70px;
+	border:1px solid black;
+	bottom:0;
+	right:calc(50% - 40px);
+}
+.column{
+	display:flex;
+}
+.col1{
+	width:33.3%;
+	padding:20px;
+	text-align:center;
+}
+.conduct-mobile{
+	padding:10px;
+	color:#0000ff54;
+}
+.conduct-mobile-1 p{
+	padding:5px;
+}
+.col2{
+	width:33.3%;
+	padding:20px;
+	text-align:center;
+}
+.conduct-mail{
+	padding:10px;
+	color:#0000ff54;
+}
+.conduct-mail-1 p{
+	padding:5px;
+}
+.col3{
+	width:33.3%;
+	padding:20px;
+	text-align:center;
+}
+.conduct-location{
+	padding:10px;
+	color:#0000ff54;
+}
+.conduct-location-1 p{
+	padding:5px;
+}
+.column1{
+	display:flex;
+}
+.map{
+	padding:10px;
+}
+.form{
+	padding:5px;
+	text-align:center;
+}
+.form1{
+	padding:10px;
+}
+.form1 input{
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+}
+.form2{
+	padding:10px;
+}
+.form2 input{
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+}
+.form3{
+	padding:10px;
+}
+.form3 input{
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+}
+.form4{
+	padding:10px;
+}
+.form4 textarea{
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+}
+.button{
+	padding:10px;
+}
+button{
+   padding:10px;
+   border-radius:20px;
+   
+}
+@media(min-width:320px){
+	.container{
+		width:100%;
+	}
+	.column{
+		display:flex;
+		flex-wrap:wrap;
+	
+	}
+	.col1{
+		width:100%;
+	}
+	.col2{
+		width:100%;
+	}
+	.col3{
+		width:100%;
+	}
+	.column1{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.map{
+		width:100%;
+	}
+    }
+@media(min-width:690px){
+	.container{
+		width:100%;
+	}
+	.column{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.col1{
+		width:50%;
+	}
+	.col2{
+		width:50%;
+	}
+	.col3{
+		width:100%;
+	}
+	.column1{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.map{
+		width:100%;
+	}
+    }
+@media(min-width:1020px){
+	.container{
+		width:100%;
+	}
+	.column{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.col1{
+		width:33.3%;
+	}
+	.col2{
+		width:33.3%;
+	}
+	.col3{
+		width:33.3%;
+	}
+	.column1{
+		display:flex;
+	
+	}
+	.map{
+		width:50%;
+	}
+	.form{
+		width:50%;
+    }
+	}	
